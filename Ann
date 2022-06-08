@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trường Đại Học</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="home.html">Trang chủ</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="khóahọc.html">Khóa học</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Liên hệ với Chúng tôi</h1>
+    </section>
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156679.45739167102!2d-106.80483623286752!3d52.150390624132385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5304f6bf47ed992b%3A0x5049e3295772690!2sSaskatoon%2C%20SK%2C%20Canada!5e0!3m2!1sen!2s!4v1654437588274!5m2!1sen!2s"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>Đường Cao Văn A, Tòa Nhà ACB</h5>
+            <p>Saskatoon, Saskatchewan, Canada</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>0661-033-100</h5>
+            <p>Khung giờ: Thứ hai - Thứ Bảy, 7:00 - 22:00</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-envelope-o"></i>
+          <span>
+            <h5>annlgps22768@fpt.edu.vn</h5>
+            <p>Gửi email cho chúng tôi câu hỏi của bạn</p>
+          </span>
+        </div>
+      </div>
+      <div class="contact-col">
+        <form action="">
+          <input type="text" placeholder="Enter your name" required />
+          <input type="email" placeholder="Enter email address" required />
+          <input type="text" placeholder="Enter your subject" required />
+          <textarea rows="8" placeholder="Message" required></textarea>
+          <button type="submit" class="hero-bnt red-bnt">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>Liên hệ chúng tôi</h4>
+      <p>0661-033-100</p>
+      <p>Hãy đến với chúng tôi vì một môi trường ổn định và bổ ích</p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Được tạo bởi <i class="fa fa-heart-o"></i> Nguyễn Lưu Gia An</p>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trường Đại Học</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="home.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="home.html">Trang chủ</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="khóahọc.html">Khóa học</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Trường Đại Học Quốc Tế</h1>
+        <p>
+          Lập trang web hiện nay là một trong những điều dễ dàng nhất trên thế
+          giới, bạn chỉ cần học HTML, CSS,<br />
+          Javascript là bạn có thể làm được.
+        </p>
+        <a href="" class="hero-bnt"
+          >Theo dõi chúng tui để biết thêm nhiều hơn</a
+        >
+      </div>
+    </section>
+    <section class="course">
+      <h1>Các Khóa Học</h1>
+      <p>
+        Các Khóa Học dạy những thứ bổ ích không thừa thiếu hay thiếu kiến thức.
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Digital Marketing</h3>
+          <p>
+            Giúp học viên từng bước thực hiện việc quảng bá, sản phẩm, dịch vụ
+            của mình trên internet, cũng như giúp học viên đo lường đánh giá
+            hiệu quả của từng kênh để điều chỉnh toàn chiến dịch đạt hiệu quả.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Giám Đốc Tài Chính</h3>
+          <p>
+            Trang bị cho học viên những kiến thức và kỹ năng chuyên sâu về phân
+            tích tài chính, dự đoán, đánh giá tác động bên trong và bên ngoài
+            lên tình hình tài chính của doanh nghiệp.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Kế Toán Trưởng</h3>
+          <p>
+            Giúp học viên hiểu và vận dụng tốt những kiến thức, kỹ năng, công cụ
+            và kinh nghiệm cần phải có của một người làm Kế toán trưởng.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="campus">
+      <h1>Các cơ sở ở cả nước</h1>
+      <p>Trường đã phát triển trên nhiều cơ sở trên khắp cả nước</p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="img/london.png" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="img/newyork.png" />
+          <div class="layer">
+            <h3>NEWYORK</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="img/washington.png" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities">
+      <h1>Cơ sở vật chất của trường</h1>
+      <p>Vật liệu chuẩn tốt, nơi học và vui chơi rộng rãi</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="img/library.png" />
+          <h3>Thư Viện</h3>
+          <p>Nơi mang đến nhiều kiến thức và thông tin bổ ích.</p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="img/basketball.png" />
+          <h3>Sân Bóng Rổ</h3>
+          <p>Nơi rèn luyện sức khỏe và hoạt động ngoài giờ học.</p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="img/cafeteria.png" />
+          <h3>Cafeteria</h3>
+          <p>Nơi thư giản, uống cafe hay có thể làm việc tại đây.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h1>Sinh Viên đã nói thế nào về trường</h1>
+      <p>
+        Đánh giá, bình luận và nhận xét về chương trình học, khuôn viện trường
+      </p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="img/user1.jpg" />
+          <div>
+            <p>
+              Trường khá là tuyệt vời vì có đủ điều kiện sinh hoạt, nơi học và
+              làm việc ổn.
+            </p>
+            <h3>Lê Thị Hiền</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+
+        <div class="testimonial-col">
+          <img src="img/user2.jpg" />
+          <div>
+            <p>
+              Trường có những giáo trình đồ án cho sinh viên khá chất lượng,
+              những giáo trình dễ thuộc không bị khó hiểu.
+            </p>
+            <h3>Nguyễn Thái Vũ</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h1>
+        Đăng ký tham gia các khóa học trực tuyến khác nhau của chúng tôi <br />
+        Mọi nơi trên thế giới
+      </h1>
+      <a href="" class="hero-bnt">Liên hệ với chúng tôi</a>
+    </section>
+
+    <section class="footer">
+      <h4>Liên hệ chúng tôi</h4>
+      <p>0661-033-100</p>
+      <p>Hãy đến với chúng tôi vì một môi trường ổn định và bổ ích</p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Được tạo bởi <i class="fa fa-heart-o"></i> Nguyễn Lưu Gia An</p>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trường Đại Học</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="home.html">Trang chủ</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="khóahọc.html">Khóa học</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Khóa Học Của Chúng Tôi</h1>
+    </section>
+
+    <section class="course">
+      <h1>Các Khóa Học</h1>
+      <p>
+        Các Khóa Học dạy những thứ bổ ích không thừa thiếu hay thiếu kiến thức.
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Digital Marketing</h3>
+          <p>
+            Giúp học viên từng bước thực hiện việc quảng bá, sản phẩm, dịch vụ
+            của mình trên internet, cũng như giúp học viên đo lường đánh giá
+            hiệu quả của từng kênh để điều chỉnh toàn chiến dịch đạt hiệu quả.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Giám Đốc Tài Chính</h3>
+          <p>
+            Trang bị cho học viên những kiến thức và kỹ năng chuyên sâu về phân
+            tích tài chính, dự đoán, đánh giá tác động bên trong và bên ngoài
+            lên tình hình tài chính của doanh nghiệp.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Kế Toán Trưởng</h3>
+          <p>
+            Giúp học viên hiểu và vận dụng tốt những kiến thức, kỹ năng, công cụ
+            và kinh nghiệm cần phải có của một người làm Kế toán trưởng.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities">
+      <h1>Cơ sở vật chất của trường</h1>
+      <p>Vật liệu chuẩn tốt, nơi học và vui chơi rộng rãi</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="img/library.png" />
+          <h3>Thư Viện</h3>
+          <p>Nơi mang đến nhiều kiến thức và thông tin bổ ích.</p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="img/basketball.png" />
+          <h3>Sân Bóng Rổ</h3>
+          <p>Nơi rèn luyện sức khỏe và hoạt động ngoài giờ học.</p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="img/cafeteria.png" />
+          <h3>Cafeteria</h3>
+          <p>Nơi thư giản, uống cafe hay có thể làm việc tại đây.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>Liên hệ chúng tôi</h4>
+      <p>0661-033-100</p>
+      <p>Hãy đến với chúng tôi vì một môi trường ổn định và bổ ích</p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Được tạo bởi <i class="fa fa-heart-o"></i> Nguyễn Lưu Gia An</p>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 150px;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+nav .fa {
+  display: none;
+}
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 62px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+.hero-bnt {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+}
+.hero-bnt:hover {
+  border: 1px solid#f3663f;
+  background: #f3663f;
+  transition: 1s;
+}
+@media (max-width: 700px) {
+  .text-box h1 {
+    font-size: 20px;
+  }
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: fixed;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
+
+/*-------- course ---------*/
+
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.course-col:hover {
+  box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+}
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/*------campus------*/
+
+.campus {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.campus-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.campus-col img {
+  width: 100%;
+  display: block;
+}
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.layer:hover {
+  background: rgba(226, 0, 0, 0.7);
+}
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+}
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+/*-------facilities--------*/
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.facilities-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+.facilities-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+.facilities-colp {
+  padding: 0;
+}
+.facilities-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/*--------testimonials--------*/
+.testimonials {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.testimonial-col {
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.testimonial-col img {
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.testimonial-col p {
+  padding: 0;
+}
+.testimonial-col h3 {
+  margin-top: 15px;
+  text-align: left;
+}
+.testimonial-col .fa {
+  color: #f44336;
+}
+@media (max-width: 700px) {
+  .testimonial-col img {
+    margin-left: 0px;
+
+    margin-right: 15px;
+  }
+}
+
+/*-------call to action-------*/
+.cta {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .cta h1 {
+    font-size: 24px;
+  }
+}
+
+/*-------footer------*/
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.icons .fa {
+  color: #f44336;
+  margin: 013px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+.fa-heart-o {
+  color: #f44336;
+}
+
+/*------Sub-header------*/
+
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.sub-header h1 {
+  margin-top: 100px;
+}
+
+/*----------------------About--------------------*/
+
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.about-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+.about-col img {
+  width: 100%;
+}
+.about-col h1 {
+  padding-top: 0;
+}
+.about-col p {
+  padding: 15px 0 25px;
+}
+.red-bnt {
+  border: 1px solid #f3663f;
+  background: transparent;
+  color: #f3663f;
+}
+.red-bnt:hover {
+  color: #fff;
+}
+
+/*-------------------Blog--------------------*/
+
+.blog-content {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+.blog-left {
+  flex-basis: 65%;
+}
+.blog-left img {
+  width: 100%;
+}
+.blog-left h2 {
+  color: #222;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.blog-left p {
+  color: #999;
+  padding: 0;
+}
+.blog-right {
+  flex-basis: 32%;
+}
+.blog-right h3 {
+  background: #f3663f;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.blog-right div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.comment-box {
+  border: 1px solid #ccc;
+  margin: 50px 0;
+  padding: 10px 20px;
+}
+.comment-box h3 {
+  text-align: left;
+}
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #f0f0f0;
+}
+.comment-form button {
+  margin: 10px 0;
+}
+@media (max-width: 700px) {
+  .sub-header h1 {
+    font-size: 24px;
+  }
+}
+
+/*---------------Contact------------*/
+
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+.location iframe {
+  width: 100%;
+}
+.contact-us {
+  width: 80%;
+  margin: auto;
+}
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-col div .fa {
+  font-size: 28px;
+  color: #f3663f;
+  margin: 10px;
+  margin-right: 30px;
+}
+.contact-col div p {
+  padding: 0;
+}
+.contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
+}
+.contact-col input,
+.contact-col textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trường Đại Học</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="home.html">Trang chủ</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="khóahọc.html">Khóa học</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Ngôi Trường Đại Học Quốc Tế</h1>
+          <p>
+            Trường Đại Học Quốc Tế tổ chức bảo vệ luận án tiến sĩ cấp Cơ sở đào
+            tạo cho Nghiên cứu sinh Nguyễn Toàn Văn, ngành Quản lý giáo
+            dục.Trường Đại Học Quốc Tế là một tổ chức giáo dục cung cấp các
+            chương trình đại học, sau đại học và các chương trình đặc biệt. Nó
+            cung cấp các khóa học về kỹ thuật hàng không vũ trụ, kiến ​​trúc,
+            sinh học, hóa học, nghiên cứu truyền thông, kỹ thuật dân dụng và môi
+            trường, khiêu vũ, môi trường, âm nhạc, luật, tâm lý học, y tế và
+            dược phẩm. Trường Đại Học Quốc Tế được thành lập năm 1817 và có trụ
+            sở tại Ann Arbor, Michigan.
+          </p>
+          <a href="" class="hero-bnt red-bnt">KHÁM PHÁ NGAY</a>
+        </div>
+        <div class="about-col"><img src="img/about.jpg" /></div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>Liên hệ chúng tôi</h4>
+      <p>0661-033-100</p>
+      <p>Hãy đến với chúng tôi vì một môi trường ổn định và bổ ích</p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Được tạo bởi <i class="fa fa-heart-o"></i> Nguyễn Lưu Gia An</p>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trường Đại Học</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="home.html">Trang chủ</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="khóahọc.html">Khóa học</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Chứng Chỉ và Các Chương Trình Trực Tuyến Cho Năm 2022</h1>
+    </section>
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="img/certificate.jpg" />
+          <h2>Chứng Chỉ và Các Chương Trình Trực Tuyến Cho Năm 2022</h2>
+          <p>
+            Trong không khí trang nghiêm, Thủ tướng Chính phủ Phạm Minh Chính và
+            đoàn công tác dành một phút mặc niệm bày tỏ lòng thành kính, sự biết
+            ơn vô hạn đối với công lao to lớn của Chủ tịch Hồ Chí Minh - Người
+            đã dành trọn cuộc đời vì dân, vì nước, vì sự nghiệp giải phóng dân
+            tộc, thống nhất đất nước; nguyện cùng chung sức, đồng lòng, cống
+            hiến để thực hiện di chúc của Người, tiếp tục học tập và làm theo tư
+            tưởng, đạo đức, phong cách Hồ Chí Minh, xây dựng đất nước hùng
+            cường, thịnh vượng, đời sống nhân dân ngày càng ấm no, hạnh phúc.
+            Cũng tại Bảo tàng Hồ Chí Minh, Thủ tướng Phạm Minh Chính dâng hương
+            tưởng nhớ Chủ tịch Tôn Đức Thắng, một trong những chiến sĩ lớp đầu
+            tiên của phong trào công nhân và phong trào cách mạng vô sản Việt
+            Nam, người chiến sĩ cách mạng kiên trung của phong trào cộng sản và
+            công nhân quốc tế, người bạn chiến đấu thân thiết của Chủ tịch Hồ
+            Chí Minh vĩ đại, nhà lãnh đạo mẫu mực của Đảng.
+          </p>
+          <br />
+          <p>
+            Cũng tại Bảo tàng Hồ Chí Minh, Thủ tướng Phạm Minh Chính dâng hương
+            tưởng nhớ Chủ tịch Tôn Đức Thắng, một trong những chiến sĩ lớp đầu
+            tiên của phong trào công nhân và phong trào cách mạng vô sản Việt
+            Nam, người chiến sĩ cách mạng kiên trung của phong trào cộng sản và
+            công nhân quốc tế, người bạn chiến đấu thân thiết của Chủ tịch Hồ
+            Chí Minh vĩ đại, nhà lãnh đạo mẫu mực của Đảng.
+          </p>
+          <br />
+          <p>
+            Trong không khí trang nghiêm, Thủ tướng Chính phủ Phạm Minh Chính và
+            đoàn công tác dành một phút mặc niệm bày tỏ lòng thành kính, sự biết
+            ơn vô hạn đối với công lao to lớn của Chủ tịch Hồ Chí Minh - Người
+            đã dành trọn cuộc đời vì dân, vì nước, vì sự nghiệp giải phóng dân
+            tộc, thống nhất đất nước; nguyện cùng chung sức, đồng lòng, cống
+            hiến để thực hiện di chúc của Người, tiếp tục học tập và làm theo tư
+            tưởng, đạo đức, phong cách Hồ Chí Minh, xây dựng đất nước hùng
+            cường, thịnh vượng, đời sống nhân dân ngày càng ấm no, hạnh phúc.
+            Cũng tại Bảo tàng Hồ Chí Minh, Thủ tướng Phạm Minh Chính dâng hương
+            tưởng nhớ Chủ tịch Tôn Đức Thắng, một trong những chiến sĩ lớp đầu
+            tiên của phong trào công nhân và phong trào cách mạng vô sản Việt
+            Nam, người chiến sĩ cách mạng kiên trung của phong trào cộng sản và
+            công nhân quốc tế, người bạn chiến đấu thân thiết của Chủ tịch Hồ
+            Chí Minh vĩ đại, nhà lãnh đạo mẫu mực của Đảng.
+          </p>
+          <br />
+          <p>
+            Sau 30 năm tìm đường cứu nước, năm 1941, Người trở về Tổ quốc, lãnh
+            đạo cách mạng Việt Nam, tiến hành Cách mạng tháng Tám thành công,
+            khai sinh ra nước Việt Nam Dân chủ Cộng hòa (nay là Cộng hòa xã hội
+            chủ nghĩa Việt Nam).
+          </p>
+          <br />
+          <p>
+            Thực hiện mong muốn của Chủ tịch Hồ Chí Minh, toàn Đảng, toàn quân,
+            toàn dân ta đã thực hiện thành công cuộc kháng chiến chống thực dân
+            Pháp, đế quốc Mỹ, xây dựng nước Việt Nam xã hội chủ nghĩa để có được
+            cơ đồ, tiềm lực, vị thế và uy tín quốc tế như hiện nay.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Mail" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-bnt red-bnt">
+                ĐĂNG BÌNH LUẬN
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Các Hạng Mục Nghành Nghề</h3>
+          <div>
+            <span>Phân tích kinh doanh</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Khoa học dữ liệu</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Công nghệ máy móc</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Digital Marketing</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Giám Đốc Tài Chính</span>
+            <span>30</span>
+          </div>
+          <div>
+            <span>Kế Toán Trưởng</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Thương Mại Tài Chính</span>
+            <span>40</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>Liên hệ chúng tôi</h4>
+      <p>0661-033-100</p>
+      <p>Hãy đến với chúng tôi vì một môi trường ổn định và bổ ích</p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Được tạo bởi <i class="fa fa-heart-o"></i> Nguyễn Lưu Gia An</p>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
